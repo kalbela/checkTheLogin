@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-    width: 650px;
+    max-width: 650px;
     margin: 60px auto 0;
-    max-width: 90%;
+    width: 90%;
 }
 
 label {
