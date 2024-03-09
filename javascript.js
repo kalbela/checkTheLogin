@@ -4,7 +4,7 @@ let password = document.querySelector("#password");
 let usernameValidation = document.querySelector("#username-validation");
 let passwordValidation = document.querySelector("#password-validation");
 
-password.style.display = none;
+password.style.display = "none";
 
 username.addEventListener("change", () => {
     if (!username.value.trim()) {
@@ -12,7 +12,7 @@ username.addEventListener("change", () => {
 
     } else if (username.value.toLowerCase().trim() === "admin") {
         usernameValidation.textContent = "PASSWORD (f)";
-        password.style.display = block;
+        password.style.display = "block";
         username.readOnly = true;
 
         password.addEventListener("change", () => {
