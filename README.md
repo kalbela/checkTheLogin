@@ -1,1 +1,1 @@
-live: https://kalbela.github.io/checkTheLogin/
+link: https://kalbela.github.io/checkTheLogin/
